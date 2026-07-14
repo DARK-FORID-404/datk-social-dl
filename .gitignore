@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.vscode/
+.idea/
+*.env
+vendor/
+node_modules/
+wrangler.toml.local
+dist/
+*.log
+.DS_Store
