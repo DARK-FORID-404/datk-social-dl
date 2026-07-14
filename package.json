@@ -1,11 +1,12 @@
 {
-  "name": "dark-dl-api",
+  "name": "datk-social-dl",
   "version": "1.0.0",
-  "description": "Social Media Downloader API on Cloudflare Pages",
+  "description": "DARK-DL Social Media Downloader API",
   "scripts": {
+    "build": "pip install -r requirements.txt -t ./vendor",
+    "deploy": "wrangler pages deploy public --project-name=datk-social-dl",
     "dev": "wrangler pages dev public",
-    "deploy": "wrangler pages deploy public",
-    "build": "echo 'Building...'"
+    "preview": "wrangler pages dev public --local"
   },
   "dependencies": {
     "wrangler": "^3.0.0"
