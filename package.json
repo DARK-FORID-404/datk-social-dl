@@ -1,0 +1,13 @@
+{
+  "name": "dark-dl-api",
+  "version": "1.0.0",
+  "description": "Social Media Downloader API on Cloudflare Pages",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public",
+    "build": "echo 'Building...'"
+  },
+  "dependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
